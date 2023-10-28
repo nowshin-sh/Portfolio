@@ -1,6 +1,11 @@
 body {
     font-family: 'Agbalumo';
     margin: 0;
+    background-image: url(images/banner2.jpg);
+    border-radius: 10px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 
 h1 {
@@ -22,6 +27,7 @@ h3 {
 
 section {
     display: flex;
+    margin-bottom: 5px;
 }
 
 .half-width {
@@ -42,9 +48,6 @@ section {
     padding: 5px 20px;
 }
 
-.banner {
-    background-image: url(images/banner2.jpg);
-    border-radius: 10px;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+.top {
+    padding-top: 8%;
 }
