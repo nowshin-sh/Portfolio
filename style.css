@@ -10,22 +10,29 @@ body {
 
 h1 {
     font-size: 50px;
-    color: darkred;
 }
 
 h3 {
     font-size: 30px;
 }
 
-#hello {
+h2 {
+    font-size: 35px;
+}
+
+.darkred {
     color: darkred;
 }
 
-#highlight {
+.highlight {
     color: orange;
 }
 
-section {
+.lightpink {
+    color: rgb(62, 5, 232);
+}
+
+.flexible-container {
     display: flex;
     margin-bottom: 5px;
 }
@@ -50,4 +57,29 @@ section {
 
 .top {
     padding-top: 8%;
+}
+
+.Experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 50px gray;
+}
+
+.bottom-margin {
+    margin-bottom: 5%;
+}
+
+#full-stack {
+    border-left: 7px solid orangered;
+}
+
+#newbie {
+    border-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
+    color: dimgray;
 }
